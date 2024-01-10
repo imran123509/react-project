@@ -1,0 +1,69 @@
+.miandiv{
+    background-image: url("./bc.svg");
+    height: 42rem;
+}
+.mainnavbar{
+    
+   display: flex;
+   justify-content: space-between;
+   margin-left: 30rem;
+   margin-right: 30rem;
+   background-color: #FFFFFF;
+   margin-top: 2rem;
+   font-size: 28px;
+   font-family: sans-serif;
+}
+
+.midcontent{
+    background-color: #FFFFFF;
+    margin-top: 20rem;
+    Width:1078.8px;
+    Height:132px;
+    Top:411.8px;
+    Left:325.2px;
+    margin-left: 35rem;
+    border-radius: 24px;
+}
+.midcontent1{
+    color: #000000;
+    font-size: large;
+    font-family: sans-serif;
+    
+}
+.midcontent2{
+    font-size: 28px;
+    margin-left: 20px;
+    font-family: sans-serif;
+    
+}
+
+
+
+
+  
+
+  .midchoice{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-left: 35rem;
+    margin-top: 3rem;
+    
+    
+  }
+  .checkboxdiv{
+    
+    margin-top: 1rem;
+    font-size: 30px;
+  
+  }
+
+  .middivpart2{
+    background-color: white;
+     width: 75%;
+     margin: auto;
+     border-radius: 18px;
+     height: 15rem;
+
+  }
+  
