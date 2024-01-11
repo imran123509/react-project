@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../src/otherpart.css'
+import './otherpart.css';
 import { LuParkingCircle } from "react-icons/lu";
 import { TbAirConditioning } from "react-icons/tb";
 import { MdOutlineElevator } from "react-icons/md";
@@ -12,7 +12,7 @@ import { IoLocationSharp } from "react-icons/io5";
 const belowpart = () => {
   return (
     <>
-    <div className={styles.body}>
+    <div className='body'>
         <div>
             <p style={{fontSize:"25px", fontWeight:"bold", padding:"1rem 0 1rem 2rem"}}>Amenities & Facilities</p>
         </div>
@@ -62,19 +62,19 @@ const belowpart = () => {
             
         </div>
         </div>
-        <div>
+        <div style={{marginLeft:"15px"}}>
             <p style={{fontSize:"25px", fontWeight:"bold", padding:"1rem 0 1rem 2rem"}}>Nearby Hotels</p>
         </div>
-        <div className={styles.hotelcardsmaindiv}>
-        <div className={styles.hotelscard}>
-        <div className={styles.hotelimagediv}>
+        <div className='hotelcardsmaindiv'>
+        <div className='hotelscard'>
+        <div className='hotelimagediv'>
               <img src="https://images.unsplash.com/photo-1625244724120-1fd1d34d00f6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWxzfGVufDB8fDB8fHww"/>
               <p>Economic Stays</p>
               </div>
-            <div className={styles.hoteldata}>
+            <div className='hoteldata'>
                 <div>
-              <p className={styles.hotelname}>The Star Hotel</p>
-              <p className={styles.hoteladdress}><IoLocationSharp />Andheri East....</p>
+              <p className='hotelname'>The Star Hotel</p>
+              <p className='hoteladdress'><IoLocationSharp />Andheri East....</p>
               </div>
               <div style={{color:"rgb(83, 83, 83)", fontWeight:"bold", padding:"2px 8px", boxShadow:"rgba(0, 0, 0, 0.15) 0px 2px 8px", borderRadius:"5px", border:"0.5px solid rgba(0, 0, 0, 0.15)"}}>
                 <button>View Now</button>
@@ -83,27 +83,27 @@ const belowpart = () => {
             <div style={{display:"flex", justifyContent:"space-between", margin:"15px 16px 14px 16px", alignItems:"center"}}>
                 <div style={{position:"relative"}}>
                   <p style={{fontSize:"15px", fontWeight:"bold", color:"darkgrey" , padding:0, margin:0}}>Rs. 2,677</p>
-                  <div className={styles.cutprice}>
+                  <div className='cutprice'>
                   </div>
                 </div>
                 <div>
-              <p className={styles.dprice}>Rs. 10,500</p>
+              <p className='dprice'>Rs. 10,500</p>
               </div>
-              <div className={styles.forhrs}>
+              <div className='forhrs'>
               <div>For</div>
               <div style={{color:"#FF6C09", fontWeight:"bold", marginLeft:"5px"}}>3HRS</div>
               </div>
               </div>
         </div>
-        <div className={styles.hotelscard}>
-        <div className={styles.hotelimagediv}>
+        <div className='hotelscard'>
+        <div className='hotelimagediv'>
               <img src="https://images.unsplash.com/photo-1625244724120-1fd1d34d00f6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWxzfGVufDB8fDB8fHww"/>
               <p>Economic Stays</p>
               </div>
-            <div className={styles.hoteldata}>
+            <div className='hoteldata'>
                 <div>
-              <p className={styles.hotelname}>The Star Hotel</p>
-              <p className={styles.hoteladdress}><IoLocationSharp />Andheri East....</p>
+              <p className='hotelname'>The Star Hotel</p>
+              <p className='hoteladdress'><IoLocationSharp />Andheri East....</p>
               </div>
               <div style={{color:"rgb(83, 83, 83)", fontWeight:"bold", padding:"2px 8px", boxShadow:"rgba(0, 0, 0, 0.15) 0px 2px 8px", borderRadius:"5px", border:"0.5px solid rgba(0, 0, 0, 0.15)"}}>
                 <button>View Now</button>
@@ -112,27 +112,27 @@ const belowpart = () => {
             <div style={{display:"flex", justifyContent:"space-between", margin:"15px 16px 14px 16px", alignItems:"center"}}>
                 <div style={{position:"relative"}}>
                   <p style={{fontSize:"15px", fontWeight:"bold", color:"darkgrey" , padding:0, margin:0}}>Rs. 2,677</p>
-                  <div className={styles.cutprice}>
+                  <div className='cutprice'>
                   </div>
                 </div>
                 <div>
-              <p className={styles.dprice}>Rs. 10,500</p>
+              <p className='dprice'>Rs. 10,500</p>
               </div>
-              <div className={styles.forhrs}>
+              <div className='forhrs'>
               <div>For</div>
               <div style={{color:"#FF6C09", fontWeight:"bold", marginLeft:"5px"}}>3HRS</div>
               </div>
               </div>
         </div>
-        <div className={styles.hotelscard}>
-        <div className={styles.hotelimagediv}>
+        <div className='hotelscard'>
+        <div className='hotelimagediv'>
               <img src="https://images.unsplash.com/photo-1625244724120-1fd1d34d00f6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWxzfGVufDB8fDB8fHww"/>
               <p>Economic Stays</p>
               </div>
-            <div className={styles.hoteldata}>
+            <div className='hoteldata'>
                 <div>
-              <p className={styles.hotelname}>The Star Hotel</p>
-              <p className={styles.hoteladdress}><IoLocationSharp />Andheri East....</p>
+              <p className='hotelname'>The Star Hotel</p>
+              <p className='hoteladdress'><IoLocationSharp />Andheri East....</p>
               </div>
               <div style={{color:"rgb(83, 83, 83)", fontWeight:"bold", padding:"2px 8px", boxShadow:"rgba(0, 0, 0, 0.15) 0px 2px 8px", borderRadius:"5px", border:"0.5px solid rgba(0, 0, 0, 0.15)"}}>
                 <button>View Now</button>
@@ -141,27 +141,27 @@ const belowpart = () => {
             <div style={{display:"flex", justifyContent:"space-between", margin:"15px 16px 14px 16px", alignItems:"center"}}>
                 <div style={{position:"relative"}}>
                   <p style={{fontSize:"15px", fontWeight:"bold", color:"darkgrey" , padding:0, margin:0}}>Rs. 2,677</p>
-                  <div className={styles.cutprice}>
+                  <div className='cutprice'>
                   </div>
                 </div>
                 <div>
-              <p className={styles.dprice}>Rs. 10,500</p>
+              <p className='dprice'>Rs. 10,500</p>
               </div>
-              <div className={styles.forhrs}>
+              <div className='forhrs'>
               <div>For</div>
               <div style={{color:"#FF6C09", fontWeight:"bold", marginLeft:"5px"}}>3HRS</div>
               </div>
               </div>
         </div>
-        <div className={styles.hotelscard}>
-        <div className={styles.hotelimagediv}>
+        <div className='hotelscard'>
+        <div className='hotelimagediv'>
               <img src="https://images.unsplash.com/photo-1625244724120-1fd1d34d00f6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWxzfGVufDB8fDB8fHww"/>
               <p>Economic Stays</p>
               </div>
-            <div className={styles.hoteldata}>
+            <div className='hoteldata'>
                 <div>
-              <p className={styles.hotelname}>The Star Hotel</p>
-              <p className={styles.hoteladdress}><IoLocationSharp />Andheri East....</p>
+              <p className='hotelname'>The Star Hotel</p>
+              <p className='hoteladdress'><IoLocationSharp />Andheri East....</p>
               </div>
               <div style={{color:"rgb(83, 83, 83)", fontWeight:"bold", padding:"2px 8px", boxShadow:"rgba(0, 0, 0, 0.15) 0px 2px 8px", borderRadius:"5px", border:"0.5px solid rgba(0, 0, 0, 0.15)"}}>
                 <button>View Now</button>
@@ -170,20 +170,20 @@ const belowpart = () => {
             <div style={{display:"flex", justifyContent:"space-between", margin:"15px 16px 14px 16px", alignItems:"center"}}>
                 <div style={{position:"relative"}}>
                   <p style={{fontSize:"15px", fontWeight:"bold", color:"darkgrey" , padding:0, margin:0}}>Rs. 2,677</p>
-                  <div className={styles.cutprice}>
+                  <div className='cutprice'>
                   </div>
                 </div>
                 <div>
-              <p className={styles.dprice}>Rs. 10,500</p>
+              <p className='dprice'>Rs. 10,500</p>
               </div>
-              <div className={styles.forhrs}>
+              <div className='forhrs'>
               <div>For</div>
               <div style={{color:"#FF6C09", fontWeight:"bold", marginLeft:"5px"}}>3HRS</div>
               </div>
               </div>
         </div>
         <div>
-            <div style={{height:"80px", width:"80px", backgroundColor:"#ff6800", color:"white", borderRadius:"50%", border:"2px solid #ff6800"}}><button style={{textAlign:"center", marginTop:"15%"}}>View More</button></div>
+            <div style={{height:"80px", width:"80px", backgroundColor:"#ff6800", color:"white", borderRadius:"50%", border:"2px solid #ff6800"}}><button style={{textAlign:"center", marginTop:"38%",backgroundColor:"#FF6803", color:"white", border:"none"}}>View More</button></div>
         </div>
         </div>
     </div>

@@ -54,6 +54,7 @@
 .mainimgdiv{
     display: flex;
     justify-content: space-between;
+    background-color: white;
 }
 
 .middivSecond{
@@ -89,6 +90,16 @@
 .retingrelated{
     display: flex;
     justify-content: space-between;
-    margin-left: 3rem;
-    margin-right: 15rem;
+    margin: 2rem 3rem;
+    background-color: white;
+}
+.inputRadio{
+    height: 50px;
+    width: 40px;
+    margin-right: 2rem;
+}
+
+.forRate:hover{
+    background-color: #FFE1C3;
+  
 }
