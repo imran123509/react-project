@@ -103,14 +103,24 @@ function anotherproject() {
                 </div>
                 <div style={{ fontSize: "1.3rem", color: "gray", marginLeft: "10px" }}><p>Customer Reviews</p></div>
 
-                <div>
+                <div className='reviwes'>
 
 
-                  <div style={{ backgroundColor: "white", borderRadius: "10px", boxShadow: "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px", margin: "0.5rem 1rem" }}>
+                  <div style={{ backgroundColor: "white", borderRadius: "10px", boxShadow: "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px", margin: "0.5rem 1rem", width:"30rem", height:"5rem" }}>
                     <div><img src={Manimage}></img>Caron</div>
                     <div style={{ display: "flex" }}>
                       <p>Great location, beautiful surrounding atmosphere, great staff. Most friendly and helpful......<button style={{ color: "#FF6600", cursor: "pointer", border: "none", background: "transparent", fontWeight: "bold" }}>more</button></p></div>
                   </div>
+                  <div style={{ backgroundColor: "white", borderRadius: "10px", boxShadow: "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px", margin: "0.5rem 1rem", width:"30rem", height:"5rem" }}>
+                    <div><img src={Manimage}></img>Caron</div>
+                    <div style={{ display: "flex" }}>
+                      <p>Great location, beautiful surrounding atmosphere, great staff. Most friendly and helpful......<button style={{ color: "#FF6600", cursor: "pointer", border: "none", background: "transparent", fontWeight: "bold" }}>more</button></p></div>
+                  </div>
+                  <div style={{ backgroundColor: "white", borderRadius: "10px", boxShadow: "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px", margin: "0.5rem 1rem", width:"30rem", height:"5rem" }}>
+                    <div><img src={Manimage}></img>Caron</div>
+                    <div style={{ display: "flex" }}>
+                      <p>Great location, beautiful   atmosphere, great staff. Most friendly and helpful......<button style={{ color: "#FF6600", cursor: "pointer", border: "none", background: "transparent", fontWeight: "bold" }}>more</button></p></div>
+                  </div>Un-married couples should be above 18+ years for booking. According to gov regulations, a valid original Photo ID has to be carried by every person above the age of 21 staying at the hotel. Local IDs are allowed. Unmarried couples are allowed. Smoking is allowed within the room. Drinking and smoking within the room.
                 </div>
 
               </div>

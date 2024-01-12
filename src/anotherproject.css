@@ -93,6 +93,13 @@
     margin: 2rem 3rem;
     background-color: white;
 }
+.reviwes{
+    display: flex;
+    overflow-x: scroll;
+}
+.reviwes::-webkit-scrollbar{
+    width: 0;
+}
 .inputRadio{
     height: 50px;
     width: 40px;
