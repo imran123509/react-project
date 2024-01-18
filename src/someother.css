@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+.bigdiv{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.otherpart{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3rem;
+    margin-right: 10rem;
+}
+
+.cutprice{
+    background-color: red;
+    width: 75px;
+    height: 1.5px;
+    margin-top: 2px;
+    transform: rotate(-10deg);
+    position: absolute;
+    top: 12px;
+}
+.selectb{
+    background-color: #FF6C09;
+    text-align: center;
+    width: 30%;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.selectb:hover{
+    cursor: pointer;
+}

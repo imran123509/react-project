@@ -1,17 +1,17 @@
 import React from 'react';
-import './style.css';
+import styles from './style.css'
 import { FaXTwitter } from "react-icons/fa6";
 import { CiInstagram } from "react-icons/ci";
 import { FaFacebook } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
 
-function project() {
+function Foot() {
     return (
       <>
       
        <div className='hotellist'>
         <div className='maindiv'>
-        <div className='TrendingSection'><h1>Trending Hotels</h1>
+        <div style={{marginRight:"4rem"}}><p className='heading'>TRENDING HOTEL CITIES</p>
           <div><a className='linkall' href=''>Hotels In Goa</a></div>
           <div><a className='linkall' href=''>Hotels In Delhi</a></div>
           <div><a className='linkall' href=''>Hotels In Mumbai</a></div>
@@ -36,11 +36,8 @@ function project() {
           <div><a className='linkall' href=''>ITC Grand Bharat Delhi</a></div>
           <div><a className='linkall' href=''>The Oberoi Mumbai</a></div>
           <div><a className='linkall' href=''>Taj Fort Aguada Resort Goa</a></div>
-          
-
-
         </div>
-        <div className='TopHotelSection'><h1>Top Hotels Cities</h1>
+        <div style={{marginRight:"4rem"}}><p className='heading'>TOP HOTEL CITIES</p>
            
           <div><a className='linkall' href=''>Hotels In Goa</a></div>
           <div><a className='linkall' href=''>Hotels In Ooty</a></div>
@@ -64,9 +61,8 @@ function project() {
           <div><a className='linkall' href=''>Goa Marriott Resort & Spa</a></div>
           <div><a className='linkall' href=''>W Goa</a></div>
           <div><a className='linkall' href=''>The Leela Goa</a></div>
-        
-        </div>
-        <div className='BestHotelSection'><h1>Best Hotels Cities</h1>
+      ' </div>
+        <div style={{marginRight:"4rem"}}><p className='heading'>BEST HOTEL CITIES</p>
         <div ><a className='linkall' href=''>Hotels In Coimbatore</a></div>
           <div><a className='linkall' href=''>Hotels In Daman</a></div>
           <div><a className='linkall' href=''>Hotels In Mysore</a></div>
@@ -90,7 +86,7 @@ function project() {
           <div><a className='linkall' href=''>Hotels In Channapatna</a></div>
           
         </div>
-        <div className='TypeHotelSection'><h1>Top Hotels By Types</h1>
+        <div><p className='heading'>TOP HOTELS BY TYPE</p>
           <div><a className='linkall' href=''>Hotels In Nashik</a></div>
           <div><a className='linkall' href=''>Hotels In Siliguri</a></div>
           <div><a className='linkall' href=''>Hotels In Vijaywada</a></div>
@@ -112,8 +108,7 @@ function project() {
           <div><a className='linkall' href=''>Hotels In Gokarna</a></div>
           <div><a className='linkall' href=''>Hotels In Chittorgarh</a></div>
           <div><a className='linkall' href=''>Hotels In Jalandhar</a></div>
-          <div><a className='linkall' href=''>Hotels In Araku valley
-</a></div>
+          <div><a className='linkall' href=''>Hotels In Araku valley</a></div>
         </div>
         </div>
        </div>
@@ -122,24 +117,24 @@ function project() {
         <div className='allfooterdiv'>
         <div className='footerfirstdiv'>
         <div className='footercontent'>About Us</div>
-        <div>|</div>
-        <div className='footercontent1'>Advertise with us</div>
-        <div>|</div>
-        <div className='footercontent2'>FAQs</div>
-        <div>|</div>
+        <div style={{margin:"0 2rem"}}>|</div>
+        <div>Advertise with us</div>
+        <div style={{margin:"0 2rem"}}>|</div>
+        <div className={styles.footercontent2}>FAQs</div>
+        <div style={{margin:"0 2rem"}}>|</div>
         <div className='footercontent3'>Partner With Us</div>
        </div>
        <div className='socialdiv'>
-        <div className='twitterdiv'> <FaXTwitter /></div>
-        <div className='instadiv'> <CiInstagram /></div>
-        <div className='fbdiv'> <FaFacebook /></div>
-        <div className='lndiv'> <CiLinkedin /></div>
+        <div style={{margin:"0 1rem"}}> <FaXTwitter /></div>
+        <div style={{margin:"0 1rem"}}> <CiInstagram /></div>
+        <div style={{margin:"0 1rem"}}> <FaFacebook /></div>
+        <div style={{margin:"0 1rem"}}> <CiLinkedin /></div>
        </div>
        <div className='footerfirstdiv'>
         <div className='footercontent'>Terms And Condition</div>
-        <div>|</div>
+        <div style={{margin:"0 2rem"}}>|</div>
         <div className='footercontent1'>Privacy Policy</div>
-        <div>|</div>
+        <div style={{margin:"0 2rem"}}>|</div>
         <div className='footercontent2'>Cancellation And Refund Policy</div>
        </div>
        </div>
@@ -147,8 +142,8 @@ function project() {
        </div>
 
        <div className='lastfooter'>
-        <div className='lastcontentfooter'>
-         <h2>@2023 HOURLYROOMS PVT. LTD. - All Rights Reserved</h2>
+        <div style={{display:"flex", justifyContent:"center"}}>
+         <p style={{marginBottom:"0", padding:"1rem 0", fontWeight:"bold"}}>@2023 HOURLYROOMS PVT. LTD. - All Rights Reserved</p>
        </div>
        </div>
        
@@ -156,4 +151,4 @@ function project() {
     );
   }
   
-  export default project;
+  export default Foot;
